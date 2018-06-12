@@ -1,0 +1,47 @@
+/*
+Error: Invalid CSS after "    @include ": expected identifier, was "'btn';"
+        on line 40 of /Users/sergeybunakov/Desktop/Sporting goods store/src/assets/sass/blocks/btn.scss
+
+35:     &:active {
+36:         background-color: darken($btn-default-bg, 7%);
+37:     }
+38: 
+39:     /* Colors *\/
+40:     @include 'btn';
+41: 
+42:     /* Outline *\/
+43:     @include btn-o;
+44: 
+45:     /* Inverted Outline *\/
+
+Backtrace:
+/Users/sergeybunakov/Desktop/Sporting goods store/src/assets/sass/blocks/btn.scss:40
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:250:in `include_directive'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:234:in `special_directive'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:209:in `directive'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:686:in `block_contents'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    @include \": expected identifier, was \"'btn';\"\A         on line 40 of /Users/sergeybunakov/Desktop/Sporting goods store/src/assets/sass/blocks/btn.scss\A \A 35:     &:active {\A 36:         background-color: darken($btn-default-bg, 7%);\A 37:     }\A 38: \A 39:     /* Colors */\A 40:     @include 'btn';\A 41: \A 42:     /* Outline */\A 43:     @include btn-o;\A 44: \A 45:     /* Inverted Outline */"; }
